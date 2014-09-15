@@ -1,0 +1,155 @@
+#icon-infotv.icon32-infotv {
+	background: url("images/admin-logo.png") no-repeat;
+}
+#icon-infotv.icon32-fonts {
+	background: url("images/admin-fonts.png") no-repeat;
+}
+#icon-infotv.icon32-calendar {
+	background: url("images/admin-calendar.png") no-repeat;
+}
+#icon-edit.icon32-posts-slide {
+	background: url("images/portfolio-32x32.png") no-repeat;
+}
+#menu-posts-slide .wp-menu-image {
+	background: url("images/portfolio-icon.png") no-repeat 6px 6px !important;
+}
+#menu-posts-slide:hover .wp-menu-image,
+#menu-posts-slide.wp-has-current-submenu .wp-menu-image {
+	background-position: 6px -16px !important;
+}
+#toplevel_page_slideshow-slides .wp-menu-image {
+	background: url("images/menu-infotv.png") no-repeat 6px 6px !important;
+}
+#toplevel_page_slideshow-slides:hover .wp-menu-image,
+#toplevel_page_slideshow-slides.wp-has-current-submenu .wp-menu-image {
+	background-position: 6px -17px !important;
+}
+#menu-posts-slide .wp-menu-image img,
+#toplevel_page_slideshow-slides .wp-menu-image img {
+	visibility:     hidden;
+}
+#font-table .font-tr td {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+#infotv_status_widget select {
+	float: right;
+}
+#infotv_status_widget option {
+	color: #000;
+}
+#infotv_status_widget hr {
+	color: #fff;
+}
+#infotv_status_widget .right {
+	float: right;
+}
+
+#current_slide_list {
+	background:     #eee;
+	padding:        5px;
+	padding-bottom: 1px;
+	width:          400px;
+	min-height:     6em;
+	margin-top:     10px;
+	border:         1px solid #aaa;
+	border-radius:  5px;
+	overflow:       auto;
+	resize:		both;
+}
+#new_slide_list {
+	background:     #eee;
+	border:         1px solid #aaa;
+	height:         400px;
+	margin-top:     10px;
+	overflow:       auto;
+	resize:		vertical;
+}
+#current_slide_list div,
+#new_slide_list div {
+	background:     -moz-linear-gradient(top, #eee, #ddd 2em) repeat scroll 0 0 transparent;
+	background:     -webkit-linear-gradient(top, #eee, #ddd 2em) repeat scroll 0 0 transparent;
+	background:     linear-gradient(top, #eee, #ddd 2em) repeat scroll 0 0 transparent;
+	border:         1px solid #bbb;
+	padding:        3px;
+	border-radius:  5px;
+	box-shadow:     0 1px 0 rgba(255, 255, 255, 0.8) inset;
+	white-space:    nowrap;
+	overflow:       hidden;
+	text-overflow:  ellipsis;
+}
+#current_slide_list .ui-sortable-helper,
+#new_slide_list .ui-sortable-helper {
+	width:          15em !important;
+	height:         auto !important;
+	box-shadow:     0 1px 0 rgba(255, 255, 255, 0.8) inset,
+	                2px 4px 3px rgba(0, 0, 0, 0.2);
+}
+#current_slide_list .ui-sortable-placeholder,
+#new_slide_list .ui-sortable-placeholder {
+	background:     none;
+	box-shadow:     none;
+	border-radius:  2px;
+	border:         1px dashed #444;
+	visibility:     visible !important;
+}
+#new_slide_list .ui-sortable-placeholder {
+	height:         13em !important;
+}
+#current_slide_list .ui-sortable-selected,
+#new_slide_list .ui-sortable-selected {
+	background:     -moz-linear-gradient(top, #ddd, #eee 2em) repeat scroll 0 0 transparent;
+	background:     -webkit-linear-gradient(top, #ddd, #eee 2em) repeat scroll 0 0 transparent;
+	background:     linear-gradient(top, #ddd, #eee 2em) repeat scroll 0 0 transparent;
+}
+#current_slide_list div {
+	margin-bottom:  5px;
+}
+#new_slide_list div {
+	width:          15em;
+	height:         13em;
+	float:          left;
+	margin:         5px;
+	box-shadow:     0 1px 0 rgba(255, 255, 255, 0.8) inset,
+	                0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.hbox {
+	display:        -webkit-box;
+	display:        -moz-box;
+	display:        box;
+	-moz-box-align: start;
+	-moz-box-orient:    horizontal;
+	-webkit-box-align:  start;
+	-webkit-box-orient: horizontal;
+	box-align:      start;
+	width:          100%;
+/*	-moz-box-pack:  start;*/
+}
+#slide-panel {
+	background:     #eee;
+	border:         1px solid #aaa;
+	border-radius:  5px;
+	-moz-box-flex:  1;
+	-webkit-box-flex:  1;
+	box-flex:  1;
+	margin-top:     10px;
+	margin-left:    10px;
+	padding:        5px;
+}
+#slide-panel #slide-image {
+	float:          right;
+	width:          100%;
+	max-width:      200px;
+	height:         150px;
+	border:         1px solid #000;
+}
+#slide-panel h3 {
+	margin:         0.5em;
+}
+#slide-panel ol {
+	float:          left;
+	list-style:     none;
+	margin:         0;
+}

@@ -1,0 +1,26 @@
+networking
+- manage connection to server
+
+loader
+- check feature support
+- run startup scripts
+
+core
+- event loop
+- time managing
+- extensions
+- configurations
+
+ui
+- draw canvases
+- helper functions
+
+slides
+- load slides
+- slide script register
+- give permissions
+
+buslists
+- load timetables
+- remove old buses
+- update time
